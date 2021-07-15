@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
+        
         crosshair = GameObject.Find("Crosshair");
         crosshair.SetActive(false);
         handPos = GameObject.Find("/Player/LeftArm").transform;
